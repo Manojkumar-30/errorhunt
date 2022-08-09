@@ -1,0 +1,2 @@
+# errorhunt
+ error
