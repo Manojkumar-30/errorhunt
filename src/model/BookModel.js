@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Library');
+const url ="mongodb+srv://manojkumar:manoj123@cluster0.qcrnj2y.mongodb.net/libray"
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }); // part 2
+//mongoose.connect('mongodb://localhost:27017/Library');
 const Schema = mongoose.Schema;
 
 
